@@ -1,9 +1,13 @@
 {
   "name": "oversmart",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "A library of overloaded combinators.",
   "main": "index.js",
-  "files": ["index.js", "README.md", "LICENSE"],
+  "files": [
+    "index.js",
+    "README.md",
+    "LICENSE"
+  ],
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
