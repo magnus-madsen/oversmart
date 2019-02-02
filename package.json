@@ -1,6 +1,6 @@
 {
   "name": "oversmart",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "A library of overloaded combinators.",
   "main": "index.js",
   "files": [
