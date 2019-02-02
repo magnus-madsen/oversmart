@@ -1,0 +1,30 @@
+{
+  "name": "oversmart",
+  "version": "0.0.1",
+  "description": "A library of overloaded combinators.",
+  "main": "index.js",
+  "files": ["index.js", "README.md", "LICENSE"],
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/magnus-madsen/oversmart.git"
+  },
+  "keywords": [
+    "map",
+    "fold",
+    "utils",
+    "overload",
+    "oversmart"
+  ],
+  "author": "Magnus Madsen",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/magnus-madsen/oversmart/issues"
+  },
+  "homepage": "https://github.com/magnus-madsen/oversmart#readme",
+  "dependencies": {
+    "esprima": "^4.0.1"
+  }
+}
