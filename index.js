@@ -1,7 +1,13 @@
 var esprima = require('esprima');
 
-function smart(g) {
-    return function (coll) {
+function smart(g, c) {
+    if (c === undefined) {
+        return verySmart;
+    } else {
+        return verySmart(c);
+    }
+
+    function verySmart(coll) {
         var ast = esprima.parseScript(g.toString());
         var name = getParamName(ast);
 
